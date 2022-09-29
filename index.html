@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+        }
+
+        .swiper-slide h1 {
+            font-weight: 600;
+            font-size: 18px;
+            color: #000000;
+            padding: 5px 0;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="navbar">
+            <img src="./img/header-logo.svg" alt="img">
+            <nav class="navbar-nav">
+                <select>
+                    <option>Негизги маалымат</option>
+                    <option>Негизги маалымат</option>
+                    <option>Негизги маалымат</option>
+                </select>
+                <select>
+                    <option>Аккредитация</option>
+                    <option>Аккредитация</option>
+                    <option>Аккредитация</option>
+                </select>
+                <a href="#">Хронология</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero-group">
+                <h1 class="hero-group-title">“Кыргызстан” <br>
+                    орто мектеби </h1>
+                <p class="hero-group-subtitle">Биздин эң сонун мектеп
+                    менен таанышууну <br> каалагандардын
+                    бардыгын тосуп алууга <br> кубанычтабыз!</p>
+                <div class="hero-group-content">
+                    <div class="hero-group-content-circle"></div>
+                    <h2>Биздин мектеп</h2>
+                    <i class="fa-solid fa-right-long"></i>
+
+                </div>
+            </div>
+
+            <img src="./img/None.png" alt="img" data-tilt class="red">
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <hr class="hr">
+        <div class="about"  data-aos="fade-up"
+             data-aos-anchor-placement="center-bottom">
+            <div class="about-images">
+                <img data-tilt src="./img/Rectangle%203.png" alt="school">
+            </div>
+            <div class="about-school">
+                <h1>Мектеп тууралуу маалымат</h1>
+                <p>ОРТО ЖАЛПЫ БИЛИМ БЕРҮҮ МЕКТЕБИ №1</p>
+                <div class="about-school-block">
+                    <img data-tilt src="./img/student.svg" alt="student" class="about-school-block-img">
+                    <h1 class="about-school-block-title">Учурдагы окуучулар <br> <span>450</span></h1>
+                </div>
+                <div class="about-school-block">
+                    <img data-tilt src="./img/student.svg" alt="student" class="about-school-block-img">
+                    <h1 class="about-school-block-title">Учурдагы окуучулар <br> <span>450</span></h1>
+                </div>
+                <div class="about-school-block">
+                    <img data-tilt src="./img/student.svg" alt="student" class="about-school-block-img">
+                    <h1 class="about-school-block-title">Учурдагы окуучулар <br> <span>450</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="about-title"  data-aos="fade-up"
+             data-aos-anchor-placement="center-bottom" >
+            <p> Вот уже 38 лет наша школа распахивает свои двери учителям, ученикам и их родителям.
+                И первый человек который <br> встречает их на пороге школы — это директор. Как важно иметь
+                в школе руководителя, который смог организовать и <br> направить всю деятельность коллектива
+                педагогов и учеников в нужное русло. На протяжении этих лет нашу школу <br> возглавляли мудрые и
+                талантливые, инициативные люди.</p>
+            <div class="modal-btn">
+                <button id="myBtn" class="about-btn">Толук маалымат</button>
+
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>маалымат</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Дуэль между Александром Сергеевичем Пушкиным и Жоржем де Геккерном (Дантесом) состоялась 27
+                            января (8 февраля) 1837 года на окраине Санкт-Петербурга, в районе Чёрной речки близ
+                            Комендантской дачи. Дуэлянты стрелялись на пистолетах. В результате дуэли Пушкин был
+                            смертельно ранен и через два дня умер.
+
+                            Место этой дуэли: Чёрная речка — тогдашняя окраина Петербурга, приток Большой Невки — рукава
+                            невской дельты, рядом расположены дачи, огороды и пустыри. Снегу в тот день было по колено.
+                            Время: вскоре после 16.30, согласно показаниям секундантов.
+
+                            По подсчётам пушкинистов, столкновение с Дантесом было как минимум двадцать первым вызовом
+                            на дуэль в жизни поэта[1]. Он был инициатором пятнадцати дуэлей, из которых состоялись
+                            четыре[2], остальные не состоялись ввиду примирения сторон, в основном стараниями друзей
+                            Пушкина; в шести случаях вызов на дуэль исходил не от Пушкина, а от его оппонентов. 4 (16)
+                            ноября 1836 года городская почта доставила Пушкину и нескольким его друзьям анонимный
+                            пасквиль на французском языке, в котором Пушкину присваивался «патент на звание рогоносца»;
+                            в этой пародийной орденской грамоте содержался тонкий намёк на внимание к Н. Н. Пушкиной со
+                            стороны не только Дантеса, но и самого императора. В 1927 году пушкинистами (Б. В. Казанским
+                            и П. Е. Рейнботом) было высказано предположение, что пасквиль указывает на мнимую связь
+                            Натальи Николаевны с императором, так как Пушкин назван заместителем Нарышкина, мужа Марии
+                            Нарышкиной, любовницы Александра I; эту точку зрения поддержал и автор наиболее
+                            авторитетного на то время исследования дуэли П. Е. Щёголев. Однако Н. А. Раевский считал,
+                            что «доказанным его [предположение] считать нельзя»[4]. Сам Пушкин счёл письмо исходящим от
+                            Геккерна. Его уверенность поддержало мнение типографа М. Л. Яковлева, которому поэт показал
+                            пасквиль. Яковлев посчитал, что послание написано на бумаге иностранного производства[5].
+                            Подозрение некоторых современников, в частности секунданта Пушкина К. К. Данзаса, пало на
+                            князя И. С. Гагарина (в 1843 году ставшего иезуитом)[6]. Щёголев же в своём труде «Дуэль и
+                            смерть Пушкина», основываясь на экспертизе почерка, проведённой в 1927 году сотрудником
+                            уголовного розыска А. А. Сальковым, доказывает, что автором анонимных пасквилей был П. В.
+                            Долгоруков. Однако позднее, по результатам более широкой и авторитетной экспертизы,
+                            организованной историком-археографом Г. Хаитом и проводившейся сотрудниками Всесоюзного НИИ
+                            судебных экспертиз, было установлено, что почерк на сохранившихся экземплярах пасквиля не
+                            принадлежит ни Долгорукову, ни Гагарину[7]. Сами Долгоруков и Гагарин при жизни также
+                            категорически отвергали свою причастность к указанным письмам.
+
+                            Придя к выводу об авторстве Геккерна, Пушкин вечером 4 ноября[8] послал Дантесу вызов на
+                            дуэль. Через неделю после вызова Жорж Дантес сделал предложение Екатерине Гончаровой —
+                            сестре Натальи Николаевны и, соответственно, свояченице Пушкина. Так как Дантес стал женихом
+                            Екатерины, Пушкин был вынужден отозвать свой вызов (сыграла роль и аудиенция, данная Пушкину
+                            Николаем I, и посредничество В. А. Жуковского). Тем не менее Пушкин отказывался иметь
+                            какие-либо отношения с Дантесом-Геккерном, что, по воспоминаниям Данзаса[6], задевало их
+                            обоих и приводило к дальнейшему обострению ситуации
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="teachers">
+    <div class="container">
+        <div class="teachers">
+            <h1>Алдынкы мугалимдер</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/teacher.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/t2.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/t3.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/t4.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/t4.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/t4.png"/>
+                            <h1>Баланчаев Баланча Баланчаевич</h1>
+                            <p>Алгебра мугалими</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="school">
+    <div class="container">
+        <div class="school"  data-aos="fade-up"
+             data-aos-anchor-placement="center-bottom">
+            <h1>Мектеп миссиясы: </h1>
+            <p>“К.Эшенкулов атындагы Тору-Айгыр жалпы орто билим берүү мектеби- жалпы орто билим берүүчү мекеме болуу
+                менен
+                <br> бирге, башталгыч, негизги жана жалпы билим берүүгө багытталат. Ата-энелер, коомчулук менен тыгыз
+                байланышта
+                <br> иштөө менен азыркы коомдо натыйжалуу иштөөгө жөндөмдүү, жашоодо өз ордун таба билген, ар тараптан
+                <br> өнүккөн инсанды тарбиялоо”</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="container">
+        <div class="contact"  data-aos="fade-up"
+             data-aos-anchor-placement="center-bottom">
+            <h1>Мектеп галереясы</h1>
+            <div class="content-img">
+                <img src="./img/school.png" alt="logo">
+                <div class="content-img-A">
+                    <div>
+                        <img src="./img/s2.png" alt="logo">
+                        <img src="./img/s3.png" alt="logo">
+                    </div>
+                    <div>
+                        <img src="./img/s1.png" alt="logo">
+                        <img src="./img/s4.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="loc">
+    <div class="container">
+        <div class="loc">
+            <div class="loc-block"  data-aos="fade-down-right">
+                <h1>Байланышуу учун</h1>
+                <div>
+                    <a href="#"><i class="fa-regular fa-envelope"></i></i></a>
+                    <a href="#">balanchaevbalancha@gmail.com</a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#">balancha_mektebi</a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#">balancha_mektebi</a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#">0 (999) 99 99 99</a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <a href="#">Кыргыз Республикасы, Ысык-Көл облусу,
+
+                        <br>Ысык-Көл  району, Тору-Айгыр айылы,
+
+                        <br>Кентибаев  көчөсү  №7 .  722121</a>
+                </div>
+            </div>
+            <div   data-aos="fade-down-left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11693.555304120955!2d74.58146585!3d42.8857425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b87e96780f5d29%3A0xc81a4e5a1796d853!2z0JHQvtC00Lgg0JzQsNGB0YHQsNC2INCR0LjRiNC60LXQuiAtINCR0LDRgNGF0LDRgg!5e0!3m2!1sru!2skg!4v1663503861132!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer-block">
+                <img src="./img/header-logo.svg" alt="">
+                <div class="footer-bl-div">
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#">0 (552) 61 55 19</a>
+                </div>
+            </div>
+            <h1>zhamiliya.73@mail.ru</h1>
+            <div>
+                <h1>Соц тармактар</h1>
+               <div class="footer-bl-div">
+                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+               </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-div">
+            <h4>Все права защищены - 2022</h4>
+            <div class="footer-div-bl">
+                <div>
+                    <h5>Developed at</h5>
+                    <h4>MOTION WEB LLC</h4>
+                </div>
+                <img src="./img/mw.svg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--<section id="school">-->
+<!--    <div class="container">-->
+<!--        <div class="school">-->
+<!--            <div class="school-title">-->
+<!--                <h1>Мектеп миссиясы: </h1>-->
+<!--                <p>“К.Эшенкулов атындагы Тору-Айгыр жалпы орто билим берүү мектеби- жалпы орто билим берүүчү мекеме-->
+<!--                    болуу менен-->
+<!--                    <br> бирге, башталгыч, негизги жана жалпы билим берүүгө багытталат. Ата-энелер, коомчулук менен-->
+<!--                    тыгыз байланышта-->
+<!--                    <br> иштөө менен азыркы коомдо натыйжалуу иштөөгө жөндөмдүү, жашоодо өз ордун таба билген, ар-->
+<!--                    тараптан өнүккөн-->
+<!--                    <br> инсанды тарбиялоо”</p>-->
+<!--            </div>-->
+<!--            <div class="school-images">-->
+<!--                <h1>Мектеп галереясы</h1>-->
+<!--                <div class="img">-->
+<!--                    <img src="./img/school.png" alt="">-->
+<!--                    <div class="img2">-->
+<!--                        <img src="./img/s1.png" alt="" class="img2-2">-->
+<!--                        <img src="./img/s2.png" alt="" class="img2-2">-->
+<!--                        <img src="./img/s3.png" alt="" class="img2-2">-->
+<!--                        <img src="./img/s4.png" alt="" class="img2-2">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section id="contact">-->
+<!--    <div class="container">-->
+<!--        <div class="contact">-->
+<!--            <div class="contact-left">-->
+<!--                <h1>Байланышуу учун</h1>-->
+<!--                <div class="icon">-->
+<!--                    <i class="fa-regular fa-envelope"></i>-->
+<!--                    <h4>balanchaevbalancha@gmail.com</h4>-->
+<!--                </div>-->
+<!--                <div class="icon">-->
+<!--                    <i class="fa-brands fa-instagram"></i>-->
+<!--                    <h4>balancha_mektebi</h4>-->
+<!--                </div>-->
+<!--                <div class="icon">-->
+<!--                    <i class="fa-brands fa-facebook-f"></i>-->
+<!--                    <h4>balancha_mektebi</h4>-->
+<!--                </div>-->
+<!--                <div class="icon">-->
+<!--                    <i class="fa-solid fa-phone"></i>-->
+<!--                    <h4>0 (999) 99 99 99</h4>-->
+<!--                </div>-->
+<!--                <div class="icon5">-->
+<!--                    <i class="fa-solid fa-location-dot"></i>-->
+<!--                    <h4>Кыргыз Республикасы, Ысык-Көл облусу,<br>-->
+
+<!--                        Ысык-Көл району, Тору-Айгыр айылы,<br>-->
+
+<!--                        Кентибаев көчөсү №7 . 722121</h4>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="contact-right">-->
+<!--                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5091.304651967059!2d74.6229228651591!3d42.82607398120459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb677eaecbde5%3A0x40d4c396df0421e5!2z0KjQutC-0LvQsCDQk9C40LzQvdCw0LfQuNGPIOKEliAzOSDQuNC8LiDQodGL0YDQsdC10LrQsCDQoNGL0YHQutGD0LvQsdC10LrQvtCy0LA!5e0!3m2!1sru!2skg!4v1661835178931!5m2!1sru!2skg"-->
+<!--                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"-->
+<!--                        referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<footer id="footer">-->
+<!--    <div class="container">-->
+<!--        <div class="footer">-->
+<!--            <div class="footer-top">-->
+<!--                <div class="footer-logo">-->
+<!--                    <img src="./img/log.svg" alt="logo">-->
+<!--                    <div class="tel">-->
+<!--                        <i class="fa-solid fa-phone"></i>-->
+<!--                        <h1>0 (552) 61 55 19</h1>-->
+
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <h1>zhamiliya.73@mail.ru</h1>-->
+<!--                <div class="footer-icon">-->
+<!--                    <h1>Соц тармактар</h1>-->
+<!--                    <div class="footer-ic">-->
+<!--                        <i class="fa-brands fa-instagram"></i>-->
+<!--                        <i class="fa-brands fa-instagram"></i>-->
+
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
+
+<script src="js/modal.js"></script>
+<script src="js/animetion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
